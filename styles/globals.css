@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#__next {
+  --tw-bg-opacity: 1;
+  background-color: rgba(124, 58, 237, var(--tw-bg-opacity));
+  height: 100vh;
+}
