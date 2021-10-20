@@ -81,7 +81,7 @@ const ImgForm = () => {
             type="submit"
             className="inline-flex items-center px-4 py-2 border border-pink-400 text-base leading-6 font-medium rounded-md text-pink-600 bg-white hover:text-pink-500 focus:border-pink-300 transition ease-in-out duration-150"
           >
-            Let's do it
+            Let &apos; s do it
           </button>
           <span className="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75"></span>
