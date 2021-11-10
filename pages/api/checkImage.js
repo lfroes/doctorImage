@@ -16,11 +16,6 @@ handler.post(async (req, res) => {
 
     const filePath = req.files.file[0].path;
 
-
- 
-
-
-
     formData2.append('image', fs.createReadStream(filePath))
 
     console.log(formData2, 'formdata');
@@ -31,7 +26,7 @@ handler.post(async (req, res) => {
             console.log(response.body, 'RESPOSTA');
             res.status(200).json(response.body)
         } catch (error) {
-            console.log(error.response.body, 'RESPOSTA ERRO');
+            console.log(error, 'REsPOSTA ERRO');
         }
     })();
   }
@@ -42,5 +37,5 @@ export const config = {
     bodyParser: false,
   },
 };
-
+aaaaaaaa
 export default handler;
